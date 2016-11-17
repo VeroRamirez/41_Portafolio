@@ -1,0 +1,90 @@
+/*MENU*/
+nav.navbar{
+	background: black;	
+	border: black;
+}
+.txt-white{
+	color:white !important;
+}
+.black{
+    background-color: black;
+    padding: 30px 10px;
+}
+nav li a, nav a{
+	color:white !important;
+}
+.carrusel{
+    width: 400px !important;
+}
+.perfil{
+    background-image: url("../img/miFoto.jpg");
+    background-position: top;
+    background-size: 360px 640px;
+    border-radius: 50%;
+    width: 300px;
+    height: 400px;
+}
+.capa-img{
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(44, 49, 48, 0.63);
+}
+/*CARRUSEL*/
+  .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+  }
+  .carousel-inner img{
+  	/*width="460" height="345"*/
+  	height: 300px !important;
+  }
+/*Contacto*/
+.icono{
+    font-size: 50px;
+    color:#1a38e8;
+}
+/*background*/
+html, body{
+    height: 100%;
+}
+h1, h2, h3, h4, h5, h6, p{
+    margin-bottom: 20px;
+}
+/*
+nav{
+    position: fixed;
+    width: 100%;
+    height: 50px;
+    background-color: rgba(0,0,0,.5);
+    z-index: 99;
+}*/
+.sect{
+    height: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.subSection{
+    height: 50%;
+    background-color: black;
+}
+.sec1{
+    background-image: url("../img/circuitos1.jpg");
+}
+.sec2{
+    background-image: url("../img/circuitos2.jpg");
+}
+.sec3{
+    background-image: url("../img/circuitos12.jpg");
+}
+@media (max-width: 760px) {
+  .perfil{
+    background-image: url("../img/miFoto.jpg");
+    background-position: top;
+    background-size: 180px 320px;
+    border-radius: 50%;
+    width: 150px;
+    height: 200px;
+    }
+}
