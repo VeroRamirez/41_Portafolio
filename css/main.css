@@ -17,12 +17,13 @@ nav li a, nav a{
     width: 400px !important;
 }
 .perfil{
-    background-image: url("../img/miFoto.jpg");
+    background-image: url("../img/perfil.jpg");
     background-position: top;
-    background-size: 360px 640px;
+    background-size: 320px 480px;
     border-radius: 50%;
     width: 300px;
-    height: 400px;
+    height: 300px;
+    margin: 10% 2%;
 }
 .capa-img{
     border-radius: 50%;
@@ -43,10 +44,10 @@ nav li a, nav a{
 /*Contacto*/
 .icono{
     font-size: 50px;
-    color:#1a38e8;
+    color:#caf6f5;
 }
 /*background*/
-html, body{
+html body{
     height: 100%;
 }
 h1, h2, h3, h4, h5, h6, p{
@@ -80,11 +81,69 @@ nav{
 }
 @media (max-width: 760px) {
   .perfil{
-    background-image: url("../img/miFoto.jpg");
+    background-image: url("../img/perfil.jpg");
     background-position: top;
     background-size: 180px 320px;
     border-radius: 50%;
     width: 150px;
-    height: 200px;
+    height: 150px;
     }
+    .carrusel{
+        width: 200px !important;
+    }
+}
+
+@media (max-width: 960px) {
+    .carrusel{
+        width: 200px !important;
+    }
+}
+
+@media (max-width: 1200px) {
+    .carrusel{
+        width: 250px !important;
+    }
+}
+#cover1{
+    background-color: transparent;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#cover1:hover{
+    background-color: dodgerblue;
+    width: 100%;
+    height: 100%;
+}
+.capa {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(100,0,0,.7);
+    -webkit-transition: all ease .5s;
+    -moz-transition: all ease .5s;
+    transition: all ease .5s;
+}
+
+.capa:hover {
+    opacity: 1;
+}
+
+.backSec1{
+    background-color:rgba( 161, 226, 203, 0.65 );
+}
+.backSec2{
+    background-color: black;
+}
+.pd-skills{
+    padding-bottom: 35%;
+}
+
+p{
+    font-size: 20px;
+    margin: 10% 5%;
+}
+.jumbotron{
+    background-color:#67a5a5;
 }
