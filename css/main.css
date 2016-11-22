@@ -89,7 +89,13 @@ nav{
     height: 150px;
     }
     .carrusel{
-        width: 200px !important;
+        width: 100px !important;
+    }
+}
+
+@media (max-width: 850px) {
+    .carrusel{
+        width: 100px !important;
     }
 }
 
