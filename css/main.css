@@ -46,6 +46,28 @@ nav li a, nav a{
     font-size: 50px;
     color:#caf6f5;
 }
+/*Portafolio*/
+.iconoPorta{
+    font-size: 1.5em !important;
+    color:white;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+a.info {
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: rgba(0,0,0,0.6);
+    filter: alpha(opacity=0);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin: 50px 0;
+    padding: 7px;
+}
+
 /*background*/
 html body{
     height: 100%;
