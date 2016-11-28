@@ -13,9 +13,6 @@ nav.navbar{
 nav li a, nav a{
 	color:white !important;
 }
-.carrusel{
-    width: 400px !important;
-}
 .perfil{
     background-image: url("../img/perfil.jpg");
     background-position: top;
@@ -31,21 +28,36 @@ nav li a, nav a{
     height: 100%;
     background-color: rgba(44, 49, 48, 0.63);
 }
-/*CARRUSEL*/
-  .carousel-inner > .item > img,
-  .carousel-inner > .item > a > img {
-      width: 100%;
-      margin: auto;
-  }
-  .carousel-inner img{
-  	/*width="460" height="345"*/
-  	height: 300px !important;
-  }
 /*Contacto*/
 .icono{
     font-size: 50px;
     color:#caf6f5;
 }
+/*Portafolio*/
+.iconoPorta{
+    font-size: 1.5em !important;
+    color:white;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+.imgPorta{
+    width: 100%;
+}
+
+a.info {
+    text-decoration: none;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: rgba(0,0,0,0.6);
+    filter: alpha(opacity=0);
+    -webkit-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+    margin: 15spx 0;
+    padding: 7px;
+}
+
 /*background*/
 html body{
     height: 100%;
