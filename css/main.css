@@ -33,6 +33,9 @@ nav li a, nav a{
     font-size: 50px;
     color:#caf6f5;
 }
+.ligasContacto{
+    font-size: 10px;
+}
 /*Portafolio*/
 .iconoPorta{
     font-size: 1.5em !important;
@@ -54,7 +57,7 @@ a.info {
     filter: alpha(opacity=0);
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
-    margin: 15spx 0;
+    margin: 15px 0;
     padding: 7px;
 }
 
@@ -149,13 +152,14 @@ nav{
 }
 
 .backSec1{
-    background-color:rgba( 161, 226, 203, 0.65 );
+    background-color:#4cb5d5;
 }
 .backSec2{
     background-color: black;
 }
 .pd-skills{
     padding-bottom: 35%;
+    padding-left: 50px;
 }
 
 p{
@@ -163,5 +167,5 @@ p{
     margin: 10% 5%;
 }
 .jumbotron{
-    background-color:#67a5a5;
+    background-color:#0093fa;
 }
