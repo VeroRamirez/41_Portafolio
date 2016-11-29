@@ -8,11 +8,16 @@ nav.navbar{
 }
 .black{
     background-color: black;
-    padding: 30px 10px;
+    padding: 0px 10px 40px 10px;
 }
 nav li a, nav a{
 	color:white !important;
 }
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover, .nav>li:hover,.navbar-default .navbar-brand:hover{
+    background-color: #0093fa;
+    font-weight: 500;
+}
+
 .perfil{
     background-image: url("../img/perfil.jpg");
     background-position: top;
@@ -28,10 +33,21 @@ nav li a, nav a{
     height: 100%;
     background-color: rgba(44, 49, 48, 0.63);
 }
+/*PORTAFOLIO*/
+.aumentaFondo{
+    padding-bottom: 300px;
+}
+h2{
+    padding-bottom: 5%;
+}
 /*Contacto*/
 .icono{
     font-size: 50px;
     color:#caf6f5;
+}
+span.icono:hover{
+    font-size: 100px;
+    color:#0093fa;
 }
 .ligasContacto{
     font-size: 10px;
@@ -152,14 +168,14 @@ nav{
 }
 
 .backSec1{
-    background-color:#4cb5d5;
+    background-color: white; /*#4cb5d5;*/
 }
 .backSec2{
     background-color: black;
 }
 .pd-skills{
-    padding-bottom: 35%;
     padding-left: 50px;
+    padding-bottom: 10%;
 }
 
 p{

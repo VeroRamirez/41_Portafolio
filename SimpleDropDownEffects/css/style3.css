@@ -1,6 +1,7 @@
 @import url('demo.css');
 @import url('common.css');
 @import url('icons.css');
+@import url('../../css/main.css');
 
 .cd-dropdown > span,
 .cd-dropdown ul li:nth-last-child(-n+3) span {

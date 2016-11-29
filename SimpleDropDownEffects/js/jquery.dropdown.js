@@ -154,6 +154,8 @@
 		open : function() {
 			var self = this;
 			this.dd.toggleClass( 'cd-active' );
+            //aumenta el tamano del fondo
+            this.dd.toggleClass('aumentaFondo');
 			this.listopts.css( 'height', ( this.optsCount + 1 ) * ( this.size.height + this.options.gutter ) );
 			this.opts.each( function( i ) {
 
@@ -181,6 +183,8 @@
 
 			var self = this;
 			this.dd.toggleClass( 'cd-active' );
+            //aumenta el tamano del fondo
+            this.dd.toggleClass('aumentaFondo');
 			if( this.options.delay && Modernizr.csstransitions ) {
 				this.opts.each( function( i ) {
 					$( this ).css( { 'transition-delay' : self.options.slidingIn ? ( ( self.optsCount - 1 - i ) * self.options.delay ) + 'ms' : ( i * self.options.delay ) + 'ms' } );
