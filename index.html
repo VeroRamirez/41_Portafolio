@@ -24,7 +24,7 @@
             <nav class="navbar navbar-default navbar-fixed-top">
                 <div class="container">
                     <div class="navbar-header">
-                        <button type="button" class="navbar-toggle txt-white" data-toggle="collapse" data-target="#myNavbar">
+                        <button type="button" class="navbar-toggle txt-white" data-toggle="collapse" data-target="#myNavbar" id="homeNav">
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
@@ -33,31 +33,30 @@
                     </div>
                     <div class="collapse navbar-collapse navbar-right" id="myNavbar">
                         <ul class="nav navbar-nav">
-                            <li><a href="#seccion1">Mis Habilidades</a></li>
-                            <li><a href="#seccion2">Mi portafolio</a></li>
-                            <li><a href="#seccion3">Contáctame</a></li>
+                            <li><a href="#seccion1" class="opMenu">Mis Habilidades</a></li>
+                            <li><a href="#seccion2" class="opMenu">Mi portafolio</a></li>
+                            <li><a href="#seccion3" class="opMenu">Contáctame</a></li>
                         </ul>
                     </div>
                 </div>
             </nav>
         </header>
-        <section id="seccion0">
-               <div class="row backSec1">
-                    <div class="col-sm-4 mt-5">
+        <section id="seccion0" class="row backSec1">
+               <div class="row ">
+                    <div class="col-md-4 mt-6">
                        <center>
                            <div id="idFoto" class="perfil">
                            </div>
                        </center>
                     </div>
-                    <div class="col-sm-8 mt-5">
+                    <div class="col-md-8 mt-6">
                         <p class="jumbotron">Soy Desarrolladora Front-End y Back-End apasionada por la
                         tecnología Web y su implementación para mejorar nuestra
-                        sociedad. Creo firmemente que a traves de la programación podemos cambiar el futuro de las nuevas generación e inspirar a que otros lo transformen también.
+                        sociedad. Creo firmemente que a través de la programación podemos cambiar el futuro de las nuevas generaciones e inspirar a que otros lo transformen también. <br>
                         </p>
-                        
                     </div>
                 </div>
-                <div class="row backSec1 pb-3">
+                <div class="row  pb-5">
                     <center>
                         <a href="docs/CV_VeronicaRamirezPe.pdf" download>
                            <span class="download">Descarga mi CV</span><br>
@@ -74,6 +73,19 @@
             </div>
             <div class="row  backSec2">
                 <div class="col-sm-4 pd-skills">
+                    <center>
+                        <div class="fleft">
+                            <select id="cd-dropdown2" class="cd-select">
+                                <option value="-1" selected>Mis Habilidades Back-End</option>
+                                <option value="1" class="icon-diamond">Java J2EE - intermedio</option>
+                                <option value="2" class="icon-star">BD Oracle - intermedio</option>
+                                <option value="3" class="icon-diamond">PL SQL - intermedio</option>
+                                <option value="4" class="icon-star">MySQL - básico</option>
+                            </select>
+                        </div>
+                    </center>
+                </div>
+                <div class="col-sm-4 pd-skills">
                     <div class="fleft">
                        <center>
                             <select id="cd-dropdown1" class="cd-select">
@@ -87,20 +99,6 @@
                         </center>
                     </div>
                </div>
-                <div class="col-sm-4 pd-skills">
-                    <center>
-                        <div class="fleft">
-                            <select id="cd-dropdown2" class="cd-select">
-                                <option value="-1" selected>Mis Habilidades Back-End</option>
-                                <option value="1" class="icon-diamond">Java J2EE - intermedio</option>
-                                <option value="2" class="icon-star">Struts 2- basico</option>
-                                <option value="3" class="icon-diamond">BD Oracle - intermedio</option>
-                                <option value="4" class="icon-star">PL SQL - intermedio</option>
-                                <option value="5" class="icon-diamond">MySQL - básico</option>
-                            </select>
-                        </div>
-                    </center>
-                </div>
                 <div class="col-sm-4 pd-skills">
                     <div class="fleft">
                         <select id="cd-dropdown3" class="cd-select">
@@ -211,9 +209,6 @@
     <script src="js/jquery-3.1.0.min.js"></script>
     <script src="js/main.js"></script>
 	<script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery-migrate-1.2.1.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
-    <script type="text/javascript" src="slick/slick.min.js"></script>
     <script type="text/javascript" src="SimpleDropDownEffects/js/jquery.dropdown.js"></script>
     <script type="text/javascript" src="SimpleDropDownEffects/js/modernizr.custom.63321.js"></script>
 </body>

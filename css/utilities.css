@@ -105,6 +105,21 @@ img; iframe, input, textarea{
 .ml-5{
 	margin-left: 5%;
 }
+.mg-6{
+	margin: 6%;
+}
+.mt-6{
+	margin-top: 6%;
+}
+.mb-6{
+	margin-bottom: 6%;
+}
+.mr-6{
+	margin-right: 6%;
+}
+.ml-6{
+	margin-left: 6%;
+}
 .mt-10{
 	margin-top: 10%;
 }
