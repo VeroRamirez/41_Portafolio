@@ -99,14 +99,10 @@ html body{
 h1, h2, h3, h4, h5, h6, p{
     margin-bottom: 20px;
 }
-/*
-nav{
-    position: fixed;
-    width: 100%;
-    height: 50px;
-    background-color: rgba(0,0,0,.5);
-    z-index: 99;
-}*/
+.pd-skills{
+    padding-left: 50px;
+    padding-bottom: 10%;
+}
 .sect{
     height: 200px;
     background-size: cover;
@@ -186,6 +182,11 @@ nav{
         padding: 5px;
     }
 }
+@media (max-width: 340px) {
+    .pd-skills{
+        padding-left:0px !important; 
+    }
+}
 #cover1{
     background-color: transparent;
     width: 100%;
@@ -217,10 +218,6 @@ nav{
 .backSec2{
     background-color: black;
     /*background:-webkit-linear-gradient( #0093fa,black);*/
-}
-.pd-skills{
-    padding-left: 50px;
-    padding-bottom: 10%;
 }
 
 p{
