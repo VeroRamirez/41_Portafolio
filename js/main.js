@@ -20,7 +20,7 @@ $(document).ready(function(){
 $( function() {
 
     $( '#cd-dropdown1' ).dropdown( {
-        gutter : 5,
+        gutter : 4,
         delay : 40,
         rotated : 'left'
     } );

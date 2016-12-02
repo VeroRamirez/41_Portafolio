@@ -1,6 +1,6 @@
 /*MENU*/
 nav.navbar{
-	background:  #0093fa;
+	background:  -webkit-linear-gradient( black,#0093fa);
 	border:  #0093fa;
 }
 .txt-white{
@@ -10,17 +10,20 @@ nav.navbar{
     background-color: black;
     padding: 0px 10px 40px 10px;
 }
+.contacto{
+    padding: 0px 10px 10px 10px;
+}
 nav li a, nav a{
 	color:white !important;
     font-weight: 500;
 }
 .navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover, .nav>li:hover,.navbar-default .navbar-brand:hover{
-    background-color: black;
+    background-color: #0093fa;
     font-weight: 800;
 }
 .perfil{
-    background-image: url("../img/perfil.jpg");
-    background-position: top;
+    background-image: url("../img/yo.jpg");
+    background-position: center;
     background-size: 320px 480px;
     border-radius: 50%;
     width: 300px;
@@ -57,7 +60,7 @@ a{
     color:#caf6f5;
 }
 span.icono:hover{
-    font-size: 100px;
+    font-size: 50px;
     color:#0093fa;
 }
 .ligasContacto{
@@ -66,7 +69,7 @@ span.icono:hover{
 /*Portafolio*/
 .iconoPorta{
     font-size: 1.5em !important;
-    color:white;
+    color:black;
     margin-left: 1em;
     margin-right: 1em;
 }
@@ -78,9 +81,10 @@ a.info {
     text-decoration: none;
     display: inline-block;
     text-transform: uppercase;
-    color: #fff;
-    border: 1px solid #fff;
-    background-color: rgba(0,0,0,0.6);
+    color: black;
+    border: 1px solid aqua;
+    border-radius:25px;
+    background-color: white;
     filter: alpha(opacity=0);
     -webkit-transition: all .2s ease-in-out;
     transition: all .2s ease-in-out;
@@ -123,16 +127,37 @@ nav{
 }
 @media (max-width: 760px) {
   .perfil{
-    background-image: url("../img/perfil.jpg");
-    background-position: top;
-    background-size: 180px 320px;
+    background-image: url("../img/yo.jpg");
+    background-position: center;
+    background-size: 200px 320px;
     border-radius: 50%;
-    width: 150px;
-    height: 150px;
+    width: 200px;
+    height: 200px;
     margin-top:100px;
     }
     .jumbotron{
-        font-size:1em;
+        font-size:1.2em !important;
+    }
+    .cd-dropdown > span {
+        width: 90%;
+        font-size: 13px;
+        padding: 0 25px 0 0px;
+    }
+    .cd-dropdown ul li span {
+        width: 90%;
+        font-size: 13px;
+        line-height: 60px;
+        cursor: none;
+        padding: 0 20px 0 0px;
+    }
+    .mt-5{
+        margin-top: 10%;
+    }
+    .pt-5{
+        padding-top: 10%;
+    }
+    #seccion3 h3{
+        font-size: 18px;
     }
 }
 
@@ -176,8 +201,8 @@ nav{
     background:white; /*#4cb5d5;*/
 }
 .backSec2{
-    /*background-color: black;*/
-    background:-webkit-linear-gradient(black, #0093fa);
+    background-color: black;
+    /*background:-webkit-linear-gradient( #0093fa,black);*/
 }
 .pd-skills{
     padding-left: 50px;
@@ -189,7 +214,30 @@ p{
     margin: 10% 5%;
 }
 .jumbotron{
-    background:-webkit-linear-gradient(black, #0093fa);
+    background:#0093fa;
     color: white;
     font-size:1.5em;
+}
+#seccion3 span{
+    margin: 20px;
+}
+#seccion3{
+    background-color: black;
+}
+.hobbies img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+#secPasatiempos{
+    background: -webkit-linear-gradient( white,black);
+    margin: 0px -15px;
+    color:white;
+}
+#secPasatiempos h2{
+    color:#0093fa;
+}
+#secPasatiempos p{
+    margin-top: 10px;
+    font-weight: 500;
 }

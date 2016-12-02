@@ -33,8 +33,9 @@
                     </div>
                     <div class="collapse navbar-collapse navbar-right" id="myNavbar">
                         <ul class="nav navbar-nav">
+                            <li><a href="#secPasatiempos" class="opMenu">Mis Pasatiempos</a></li>
                             <li><a href="#seccion1" class="opMenu">Mis Habilidades</a></li>
-                            <li><a href="#seccion2" class="opMenu">Mi portafolio</a></li>
+                            <li><a href="#seccion2" class="opMenu">Mi Portafolio</a></li>
                             <li><a href="#seccion3" class="opMenu">Contáctame</a></li>
                         </ul>
                     </div>
@@ -50,7 +51,7 @@
                        </center>
                     </div>
                     <div class="col-md-8 mt-6">
-                        <p class="jumbotron">Soy Desarrolladora Front-End y Back-End apasionada por la
+                        <p class="jumbotron text-center">Soy Desarrolladora Front-End y Back-End apasionada por la
                         tecnología Web y su implementación para mejorar nuestra
                         sociedad. Creo firmemente que a través de la programación podemos cambiar el futuro de las nuevas generaciones e inspirar a que otros lo transformen también. <br>
                         </p>
@@ -65,17 +66,60 @@
                     </center>
                 </div>
         </section>
+        <section id="secPasatiempos" class="row pt-5">
+            <h2  class="text-center">Mis Pasatiempos</h2>
+            <div class="row hobbies">
+                <div class="col-sm-4">
+                   <center>
+                       <img src="img/act1.gif" alt="">
+                       <p>Bailar</p>
+                    </center>
+                </div>
+                <div class="col-sm-4">
+                   <center>
+                        <img src="img/act3.jpeg" alt=""/>
+                        <p>Mis Mascotas</p>
+                    </center>
+                </div>
+                <div class="col-sm-4">
+                   <center>
+                        <img src="img/act8.jpg" alt=""/>
+                        <p>Peliculas</p>
+                    </center>
+                </div>
+            </div>
+            <div class="row hobbies">
+                <div class="col-sm-4">
+                   <center>
+                        <img src="img/act5.jpeg" alt="">
+                        <p>Amigos y Familia</p>
+                    </center>
+                </div>
+                <div class="col-sm-4">
+                   <center>
+                        <img src="img/act7.jpg" alt="">
+                        <p>Yoga</p>
+                    </center>
+                </div>
+                <div class="col-sm-4">
+                   <center>
+                        <img src="img/act4.jpg" alt="">
+                        <p>Leer</p>
+                    </center>
+                </div>
+            </div>
+        </section>
         <section id="seccion1">
-            <div class="row  backSec2 pt-5">
+            <div class="row pt-5 backSec2">
                 <div class="col-xs-12">
                     <h2 class="text-center txt-white">Mis Habilidades</h2>
                 </div>
             </div>
-            <div class="row  backSec2">
-                <div class="col-sm-4 pd-skills">
+            <div class="row backSec2">
+                <div class="col-md-4 col-sm-6 col-xs-12 pd-skills">
                     <center>
                         <div class="fleft">
-                            <select id="cd-dropdown2" class="cd-select">
+                            <select id="cd-dropdown1" class="cd-select">
                                 <option value="-1" selected>Mis Habilidades Back-End</option>
                                 <option value="1" class="icon-diamond">Java J2EE - intermedio</option>
                                 <option value="2" class="icon-star">BD Oracle - intermedio</option>
@@ -85,10 +129,10 @@
                         </div>
                     </center>
                 </div>
-                <div class="col-sm-4 pd-skills">
-                    <div class="fleft">
-                       <center>
-                            <select id="cd-dropdown1" class="cd-select">
+                <div class="col-md-4 col-sm-6 col-xs-12 pd-skills">
+                   <center>
+                        <div class="fleft">
+                            <select id="cd-dropdown2" class="cd-select">
                                 <option value="-1" selected>Mis Habilidades Front-End</option>
                                 <option value="1" class="icon-diamond">JavaScript - intermedio</option>
                                 <option value="2" class="icon-star">Jquery - intermedio</option>
@@ -96,19 +140,22 @@
                                 <option value="4" class="icon-star">Bootstrap- básico</option>
                                 <option value="5" class="icon-diamond">Ajax - básico</option>
                             </select>
-                        </center>
-                    </div>
+                        </div>
+                    </center>
                </div>
-                <div class="col-sm-4 pd-skills">
-                    <div class="fleft">
-                        <select id="cd-dropdown3" class="cd-select">
-                            <option value="-1" selected>Mis Habilidades Blandas</option>
-                            <option value="1" class="icon-diamond">Comunicación</option>
-                            <option value="2" class="icon-star">Organización</option>
-                            <option value="3" class="icon-diamond">Autodidacta</option>
-                            <option value="4" class="icon-star">Facilidad de Aprendizaje</option>
-                        </select>
-                    </div>
+                <div class="col-md-4 col-sm-12 col-xs-12 pd-skills">
+                   <center>
+                       <div class="fleft">
+                            <select id="cd-dropdown3" class="cd-select">
+                                <option value="-1" selected>Mis Habilidades Blandas</option>
+                                <option value="1" class="icon-diamond">Comunicación</option>
+                                <option value="2" class="icon-star">Organización</option>
+                                <option value="3" class="icon-diamond">Autodidacta</option>
+                                <option value="4" class="icon-star">Facilidad de Aprendizaje</option>
+                                <option value="4" class="icon-diamond">Inglés</option>
+                            </select>
+                        </div>
+                   </center>
                 </div>
             </div>
         </section>
@@ -170,25 +217,25 @@
         </section>
         <!--Contacto-->
         <div class="row sect sec2"></div>
-        <section id="seccion3">
-            <div class="row black">
+        <section id="seccion3" class="row">
+            <div class="row contacto">
                <div class="col-xs-12 txt-white mt-5">
-                   <h2 class="text-center mb-3">Contáctame</h2>
+                   <h2 class="text-center mb-1">Contáctame</h2>
                </div>
             </div>
-            
-            <div class="row text-center black">
-               <div class="col-sm-4">
+            <div class="row">
+               <div class="col-xs-12 txt-white">
+                   <center><h3>Es hora de crear una aplicación interesante. <br>Si te gusto mi trabajo, búscame en:</h3></center>
+               </div>
+            </div>
+            <div class="row text-center">
+               <div class="col-sm-12">
                    <a href="https://mx.linkedin.com/in/vero-ramirezp" target="_blank">
                        <span class="fa fa-linkedin-square icono"></span>
                    </a>
-               </div>
-               <div class="col-sm-4">
                    <a href="https://github.com/VeroRamirez" target="_blank">
                        <span class="fa fa-github-square icono"></span>
                    </a>
-               </div>
-               <div class="col-sm-4">
                    <a href="mailto:veronica12.rp@gmail.com">
                        <span class="fa fa-envelope icono"></span>
                    </a>
